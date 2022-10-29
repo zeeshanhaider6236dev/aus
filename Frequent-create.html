@@ -1,0 +1,790 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Create</title>
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+ <div class="container-fluid">
+  <div class="container">
+   <div class="col-md-12 top">
+	   <a href="index.html"><i class="fa fa-angle-left"></i>Offers</a>
+		   <div class="row">
+			   
+		   <div class="col-md-7 top_left">
+			   <h3>Create an offer</h3>
+	       </div>
+		   
+		   <div class="col-md-5 top_right">
+	         <button type="button" class="cancel">Cancel</button>
+			 <button type="button" class="save">Save</button>
+	       </div>
+	   
+	   </div>
+	   
+   </div>	
+  </div>	 
+ </div>	
+	
+	
+<div class="container-fluid">
+  <div class="container">
+   <div class="col-md-12 tabs">
+	   
+	  <div class="tabs">
+       <div class="tab_bg">
+		  <ul class="nav nav-tabs" role="tablist">
+
+			<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#home"><i class="fa fa-gears"></i>Configuration</a></li>
+			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu1"><i class="fa fa-image"></i>Preview</a></li>
+
+		  </ul>
+
+
+<!----------------Tab-panes----------------->
+		   
+ <div class="tab-content mt-3">
+ 
+
+<div id="home" class="tab-pane active">
+     
+    <div class="container offer">
+	 <div class="row">
+		
+		<div class="col-md-5 offer_left">
+		  <h4>Offer Name</h4>
+		  <p>This is an internal name and won't appear on the frontend.</p>
+		</div>
+		
+		<div class="col-md-7 offer_right">
+		  <label>Name:</label><br>
+		  <input type="text" value="Enter Offer Name...!!">
+		</div>
+		
+		
+		
+     </div>
+	</div>
+	
+	<div class="container">
+	 <div class="row">
+		
+		<div class="col-md-5 offer_left">
+		  <h4>Select Target Products</h4>
+		  <p>Target products are those products, on which you want to show offer. When customer will add these products to cart, then offer will be shown on these products.</p>
+		</div>
+		
+		<div class="col-md-7 offer_right select_bg">
+			
+		  <div class="row mt-2">
+			<div class="col-md-4 select_left">
+			  <h3>Upsell will Trigger on...</h3>
+			</div>
+			<div class="col-md-8 select_right">
+			  <button type="button" class="save" data-toggle="modal" data-target="#product_modal">Pick a Product</button>
+			  <button type="button" class="cancel">Remove All</button>
+			</div>
+		  </div>
+			<hr>
+			
+			<div class="box_shado mt">
+					 <div class="row">
+						 
+				  <div class="img_box col-md-2">
+					<img src="assets/img/1.jpg">
+				  </div>
+				  
+				  <div class="img_name col-md-8">
+					<p>Olivia Professional Herbal All PurPose Massage Cream with Aloe vera 800gm <a href="#" data-toggle="modal" data-target="#product_modal">(Change)</a></p>
+				  </div>
+						 
+				  <div class="img_btn col-md-2">
+					<button type="button" class="delete float-right">Delete</button>
+				  </div>
+						 
+				   </div>  
+				 </div>
+			
+			<div class="box_shado mt">
+					 <div class="row">
+						 
+				  <div class="img_box col-md-2">
+					<img src="assets/img/2.jpg">
+				  </div>
+				  
+				  <div class="img_name col-md-8">
+					<p>Olivia Professional Herbal All PurPose Massage Cream with Aloe vera 800gm <a href="#" data-toggle="modal" data-target="#product_modal">(Change)</a></p>
+				  </div>
+						 
+				  <div class="img_btn col-md-2">
+					<button type="button" class="delete float-right">Delete</button>
+				  </div>
+						 
+				   </div>  
+				 </div>
+		</div>
+		
+		
+     </div>
+	</div>
+	
+	<div class="container upsel_p">
+	 <div class="row">
+		
+		<div class="col-md-5 offer_left">
+		  <h4>Select Upsell Products</h4>
+		  <p>Upsell products are those products, which you want to show in offer.When customer will add target products to cart, then upsell products will be shown in offer.</p>
+		</div>
+		
+		<div class="col-md-7 offer_right select_bg">
+			
+		  <div class="row mt-2">
+			<div class="col-md-4 select_left">
+			  <h3>Upsell will Appear on...</h3>
+			</div>
+			<div class="col-md-8 select_right">
+			  <button type="button" class="save">Auto</button>
+			  <button type="button" class="save" data-toggle="modal" data-target="#product_modal">Pick a Product</button>
+			  <button type="button" class="cancel">Remove All</button>
+			</div>
+		  </div>
+			<hr>
+			
+			
+			<div class="box_shado mt">
+					 <div class="row">
+						 
+				  <div class="img_box col-md-2">
+					<img src="assets/img/2.jpg">
+				  </div>
+				  
+				  <div class="img_name col-md-8">
+					<p>Olivia Professional Herbal All PurPose Massage Cream with Aloe vera 800gm <a href="#" data-toggle="modal" data-target="#product_modal">(Change)</a></p>
+				  </div>
+						 
+				  <div class="img_btn col-md-2">
+					<button type="button" class="delete float-right">Delete</button>
+				  </div>
+						 
+				   </div>  
+				 </div>
+		</div>
+		
+		
+     </div>
+	</div>
+	
+	<div class="container offer">
+	 <div class="row">
+		
+		<div class="col-md-5 offer_left">
+		  <h4>Widget Location</h4>
+		  <p>Choose the position of your Frequently Bought Together widget</p>
+		</div>
+		
+		<div class="col-md-7 offer_right">
+		  <div class="row">
+			  
+		   <div class="col-md-12 discount_left">
+			   <label>Location of the Frequently Bought Together widget:</label><br>
+			   <select>
+			    <option>Below the 'Add to cart' button</option>
+			    <option>Below the description, in the right column</option>
+			    <option>Below the product, taking the full width</option>
+				<option>At the bottom of the page</option>
+			   </select>
+		   </div>
+			  
+	     </div>
+		</div>
+		
+		
+		
+     </div>
+	</div>
+	
+	<div class="container">
+	 <div class="row">
+		
+		<div class="col-md-5 offer_left">
+		  <h4>Optional Settings</h4>
+		  <p></p>
+		</div>
+		
+		<div class="col-md-7 select_bg display">
+          <h4>Work on device:</h4>
+          <form>
+<div class="row">
+<div class="form-check form_float ml-3">
+<input type="checkbox" class="form-check-input" id="formCheck-1" style="height: 20px;">
+<label class="form-check-label" for="formCheck-1">Desktop</label>
+</div>
+
+<div class="form-check form_float">
+<input type="checkbox" class="form-check-input" id="formCheck-3" style="height: 20px;">
+<label class="form-check-label" for="formCheck-3">Mobile</label>
+</div></div>
+</form>
+          <hr>
+		 <h4>Schedule:</h4>
+		  <div class="row">
+			  
+		   <div class="col-md-6 discount_left">
+			   <label>Start Date:</label><br>
+			   <input type="date">
+		   </div>
+			  
+		   <div class="col-md-6 discount_left">
+			   <label>End Date:</label><br>
+			   <input type="date">
+		   </div>
+			  
+	     </div>
+	
+		</div>
+		
+		
+     </div>
+	</div>
+	
+	
+</div>
+ 
+	 
+<!------------modal--------------->
+<div id="product_modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content select_model">
+      <div class="modal-header">
+      <h4 class="modal-title">Select Target Products</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+<div class="modal-body">
+<!-------------Tabs--------------->     
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#p-1"><i class="fa fa-snowflake-o"></i>Product</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#p-2"><i class="fa fa-server"></i>Collections</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#p-3"><i class="fa fa-hashtag"></i>Tags</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+<!----------------------Tab-1--------------------->  
+
+<div id="p-1" class="container tab-pane active"><br>
+
+  <div class="form-group">
+    <div class="search">
+    <span class="search_wrapper">
+     <input placeholder="Search Products">
+      <span class="search_icon">
+    <i class="fa fa-search"></i>
+    </span>
+    </span>
+    </div>
+  </div>
+<!----------search-close------------------>
+<ul class="product_search">
+     <li class="product_search_item">
+       <label class="product_label">
+        <input type="checkbox">
+         <div class="product_info">
+          <div style="" class="product_img">
+           <img src="assets/img/1.jpg">
+          </div>
+          <p class="product_title">Best Anti Aging Wrinkle Creams.</p>
+         </div>
+       </label>
+    </li>
+    
+    <li class="product_search_item">
+       <label class="product_label">
+        <input type="checkbox">
+         <div class="product_info">
+          <div style="" class="product_img">
+           <img src="assets/img/1.jpg">
+          </div>
+          <p class="product_title">Best Anti Aging Wrinkle Creams.</p>
+         </div>
+       </label>
+    </li>
+    
+    <li class="product_search_item">
+       <label class="product_label">
+        <input type="checkbox">
+         <div class="product_info">
+          <div style="" class="product_img">
+           <img src="assets/img/1.jpg">
+          </div>
+          <p class="product_title">Best Anti Aging Wrinkle Creams.</p>
+         </div>
+       </label>
+    </li>
+ </ul>
+ 
+</div>
+<!----------------------Tab-2--------------------->  
+
+<div id="p-2" class="container tab-pane fade"><br>
+  
+  <div class="form-group">
+    <div class="search">
+    <span class="search_wrapper">
+     <input placeholder="Search Collections">
+      <span class="search_icon">
+    <i class="fa fa-search"></i>
+    </span>
+    </span>
+    </div>
+  </div>
+<!----------search-close------------------>
+ <ul class="product_search">
+     <li class="product_search_item">
+       <label class="product_label col_pad">
+        <input type="checkbox">
+         <div class="product_info">
+          <p class="product_title">Home</p>
+         </div>
+       </label>
+    </li>
+    
+    <li class="product_search_item">
+       <label class="product_label col_pad">
+        <input type="checkbox">
+         <div class="product_info">
+          <p class="product_title">Kettle</p>
+         </div>
+       </label>
+    </li>
+    
+    <li class="product_search_item">
+       <label class="product_label col_pad">
+        <input type="checkbox">
+         <div class="product_info">
+          <p class="product_title">LED CAMPING</p>
+         </div>
+       </label>
+    </li> 
+ </ul>
+</div>
+<!----------------------Tab-3--------------------->  
+
+<div id="p-3" class="container tab-pane fade"><br>
+
+<div class="form-group">
+    <div class="search">
+    <span class="search_wrapper">
+     <input placeholder="Add New Tags">
+      <span class="search_icon">
+    <i class="fa fa-search"></i>
+    </span>
+    </span>
+    </div>
+  </div>
+<!----------search-close------------------>
+<ul class="product_search">
+     <li class="product_search_item">
+       <label class="product_label col_pad">
+        <input type="checkbox">
+         <div class="product_info">
+          <p class="product_title">24K GOLD PLATED</p>
+         </div>
+       </label>
+    </li>
+    
+    <li class="product_search_item">
+       <label class="product_label col_pad">
+        <input type="checkbox">
+         <div class="product_info">
+          <p class="product_title">BLACK IN EVA BOX</p>
+         </div>
+       </label>
+    </li>
+    
+    <li class="product_search_item">
+       <label class="product_label col_pad">
+        <input type="checkbox">
+         <div class="product_info">
+          <p class="product_title">LED Lightweight</p>
+         </div>
+       </label>
+    </li> 
+ </ul>
+ 
+</div>
+<!----------tabs-close------------------>
+</div>
+<!-------------Tabs-close--------------->   
+  
+</div>
+ <div class="modal-footer">
+  <button type="button" class="save">Select Product</button>
+  <button type="button" class="cancel" data-dismiss="modal">Cancel</button>
+ </div>
+</div>
+
+</div>
+</div>
+<!-------------------tab-1-close--------------------->      
+
+	 
+	 
+<div id="menu1" class="tab-pane fade p-0"><br>
+
+ <div class="container-fluid">
+  <div class="container">
+   <div class="row">
+	   
+	<div class="col-md-6">
+	 <div class="design_input">
+		
+	  <h3>Title</h3>	 
+	
+	<form class="h_input">
+		<label>Heading</label><br>
+		<input type="text" value="Frequently Bought Together">    
+	  </form>
+	
+	<div class="col-md-12 font">
+	 <div class="row">
+	  <form class="f_input">
+		<label>Font family</label><br>
+		<select>
+		 <option>Sans-Serif</option> 
+		 <option>Lato</option> 
+		 <option>Poppins</option> 
+		 <option>Fjalla</option> 
+		 <option>Arial</option>	  
+		</select>    
+	  </form>
+	
+	  <form class="f_input">
+		<label>Font Size</label><br>
+		<input type="number" value="22" min="12">    
+	  </form>	  
+	</div>	 
+   </div>	 
+		 
+	<div class="col-md-12 font">
+	 <div class="row">
+	  
+	  <form class="f_input_color">
+		<label>Color</label><br>
+		<a href="#" class="buttoncolor" id="basic" style="background-color:#251c6b;"> 
+			<div class="picker_wrapper layout_default no_cancel popup popup_right" tabindex="-1" style="display: none;"><div class="picker_arrow"></div><div class="picker_hue picker_slider" style="color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 53.3333%;"></div></div><div class="picker_sl" style="background-color: rgb(0, 204, 255); color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 100%; top: 50%;"></div></div><div class="picker_alpha picker_slider" style="background-image: linear-gradient(rgb(0, 204, 255), rgba(0, 204, 255, 0)), url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2'%3E%3Cpath d='M1,0H0V1H2V2H1' fill='lightgrey'/%3E%3C/svg%3E&quot;);"><div class="picker_selector" style="top: 0%;"></div></div><div class="picker_editor"><input aria-label="Type a color name or hex value"></div><div class="picker_sample" style="color: rgb(0, 204, 255);"></div><div class="picker_done"><button>Ok</button></div><div class="picker_cancel"><button>Cancel</button></div></div>
+		  </a>  <p>Text Color </p>
+	  </form>
+		 
+	  <form class="f_input">
+		<label>Text Align</label><br>
+		<select>
+		 <option>Left</option> 
+		 <option>Center</option> 
+		 <option>Right</option>	  
+		</select>    
+	  </form>
+  	  
+	</div>	 
+   </div>	 
+		 
+	<h3 class="mt-4">Translation</h3>
+		 
+	<div class="col-md-12 font">
+	 <div class="row">
+	  <form class="f_input">
+		<label>Add Selected To Cart</label><br>
+		<input type="text" value="Add Selected To Cart">     
+	  </form>
+	
+	  <form class="f_input">
+		<label>This Item</label><br>
+		<input type="text" value="This Item">    
+	  </form>	  
+	</div>	 
+   </div>
+	  	 
+	<div class="col-md-12 font">
+	 <div class="row">
+	  <form class="f_input">
+		<label>Sale Badge</label><br>
+		<input type="text" value="Sale">     
+	  </form>
+	
+	  <form class="f_input">
+		<label>Total Price</label><br>
+		<input type="text" value="Total Price">    
+	  </form>	  
+	</div>	 
+   </div>	 
+		 
+	<h3 class="mt-4">Color Settings</h3>	 
+	
+    <div class="col-md-12 font">
+	 <div class="row">
+	  
+	  <form class="f_input_color mt-3">
+		<a href="#" class="buttoncolor" id="basic" style="background-color: #fb0000;">
+			<div class="picker_wrapper layout_default no_cancel popup popup_right" tabindex="-1" style="display: none;"><div class="picker_arrow"></div><div class="picker_hue picker_slider" style="color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 53.3333%;"></div></div><div class="picker_sl" style="background-color: rgb(0, 204, 255); color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 100%; top: 50%;"></div></div><div class="picker_alpha picker_slider" style="background-image: linear-gradient(rgb(0, 204, 255), rgba(0, 204, 255, 0)), url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2'%3E%3Cpath d='M1,0H0V1H2V2H1' fill='lightgrey'/%3E%3C/svg%3E&quot;);"><div class="picker_selector" style="top: 0%;"></div></div><div class="picker_editor"><input aria-label="Type a color name or hex value"></div><div class="picker_sample" style="color: rgb(0, 204, 255);"></div><div class="picker_done"><button>Ok</button></div><div class="picker_cancel"><button>Cancel</button></div></div>
+		  </a>  <p>Product Title </p>
+	  </form>
+		 
+	  <form class="f_input_color mt-3">
+		<a href="#" class="buttoncolor" id="basic" style="background-color: #00aeda;">
+			<div class="picker_wrapper layout_default no_cancel popup popup_right" tabindex="-1" style="display: none;"><div class="picker_arrow"></div><div class="picker_hue picker_slider" style="color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 53.3333%;"></div></div><div class="picker_sl" style="background-color: rgb(0, 204, 255); color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 100%; top: 50%;"></div></div><div class="picker_alpha picker_slider" style="background-image: linear-gradient(rgb(0, 204, 255), rgba(0, 204, 255, 0)), url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2'%3E%3Cpath d='M1,0H0V1H2V2H1' fill='lightgrey'/%3E%3C/svg%3E&quot;);"><div class="picker_selector" style="top: 0%;"></div></div><div class="picker_editor"><input aria-label="Type a color name or hex value"></div><div class="picker_sample" style="color: rgb(0, 204, 255);"></div><div class="picker_done"><button>Ok</button></div><div class="picker_cancel"><button>Cancel</button></div></div>
+		  </a>  <p>Sale Price </p>
+	  </form>
+		 
+	  <form class="f_input_color mt-3">
+		<a href="#" class="buttoncolor" id="basic2" style="background-color: #546ea9;">
+			<div class="picker_wrapper layout_default no_cancel popup popup_right" tabindex="-1" style="display: none;"><div class="picker_arrow"></div><div class="picker_hue picker_slider" style="color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 53.3333%;"></div></div><div class="picker_sl" style="background-color: rgb(0, 204, 255); color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 100%; top: 50%;"></div></div><div class="picker_alpha picker_slider" style="background-image: linear-gradient(rgb(0, 204, 255), rgba(0, 204, 255, 0)), url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2'%3E%3Cpath d='M1,0H0V1H2V2H1' fill='lightgrey'/%3E%3C/svg%3E&quot;);"><div class="picker_selector" style="top: 0%;"></div></div><div class="picker_editor"><input aria-label="Type a color name or hex value"></div><div class="picker_sample" style="color: rgb(0, 204, 255);"></div><div class="picker_done"><button>Ok</button></div><div class="picker_cancel"><button>Cancel</button></div></div>
+		  </a>  <p>Compare Price</p>
+	  </form>
+		 
+	  <form class="f_input_color mt-3">
+		<a href="#" class="buttoncolor" id="basic" style="background-color:#546ea9;">
+			<div class="picker_wrapper layout_default no_cancel popup popup_right" tabindex="-1" style="display: none;"><div class="picker_arrow"></div><div class="picker_hue picker_slider" style="color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 53.3333%;"></div></div><div class="picker_sl" style="background-color: rgb(0, 204, 255); color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 100%; top: 50%;"></div></div><div class="picker_alpha picker_slider" style="background-image: linear-gradient(rgb(0, 204, 255), rgba(0, 204, 255, 0)), url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2'%3E%3Cpath d='M1,0H0V1H2V2H1' fill='lightgrey'/%3E%3C/svg%3E&quot;);"><div class="picker_selector" style="top: 0%;"></div></div><div class="picker_editor"><input aria-label="Type a color name or hex value"></div><div class="picker_sample" style="color: rgb(0, 204, 255);"></div><div class="picker_done"><button>Ok</button></div><div class="picker_cancel"><button>Cancel</button></div></div>
+		  </a>  <p>Button Border Color</p>
+	  </form>
+	  
+	   <form class="f_input_color mt-3">
+		<a href="#" class="buttoncolor" id="basic" style="background-color: #ab7b7b;">
+			<div class="picker_wrapper layout_default no_cancel popup popup_right" tabindex="-1" style="display: none;"><div class="picker_arrow"></div><div class="picker_hue picker_slider" style="color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 53.3333%;"></div></div><div class="picker_sl" style="background-color: rgb(0, 204, 255); color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 100%; top: 50%;"></div></div><div class="picker_alpha picker_slider" style="background-image: linear-gradient(rgb(0, 204, 255), rgba(0, 204, 255, 0)), url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2'%3E%3Cpath d='M1,0H0V1H2V2H1' fill='lightgrey'/%3E%3C/svg%3E&quot;);"><div class="picker_selector" style="top: 0%;"></div></div><div class="picker_editor"><input aria-label="Type a color name or hex value"></div><div class="picker_sample" style="color: rgb(0, 204, 255);"></div><div class="picker_done"><button>Ok</button></div><div class="picker_cancel"><button>Cancel</button></div></div>
+		  </a>  <p>Button Text</p>
+	  </form>
+		 
+	  <form class="f_input_color mt-3">
+		<a href="#" class="buttoncolor" id="basic" style="background-color: #824b4b;">
+			<div class="picker_wrapper layout_default no_cancel popup popup_right" tabindex="-1" style="display: none;"><div class="picker_arrow"></div><div class="picker_hue picker_slider" style="color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 53.3333%;"></div></div><div class="picker_sl" style="background-color: rgb(0, 204, 255); color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 100%; top: 50%;"></div></div><div class="picker_alpha picker_slider" style="background-image: linear-gradient(rgb(0, 204, 255), rgba(0, 204, 255, 0)), url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2'%3E%3Cpath d='M1,0H0V1H2V2H1' fill='lightgrey'/%3E%3C/svg%3E&quot;);"><div class="picker_selector" style="top: 0%;"></div></div><div class="picker_editor"><input aria-label="Type a color name or hex value"></div><div class="picker_sample" style="color: rgb(0, 204, 255);"></div><div class="picker_done"><button>Ok</button></div><div class="picker_cancel"><button>Cancel</button></div></div>
+		  </a>  <p>Button Hover Text </p>
+	  </form>
+		 
+	  <form class="f_input_color mt-3">
+		<a href="#" class="buttoncolor" id="basic2" style="background-color: #546ea9;">
+			<div class="picker_wrapper layout_default no_cancel popup popup_right" tabindex="-1" style="display: none;"><div class="picker_arrow"></div><div class="picker_hue picker_slider" style="color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 53.3333%;"></div></div><div class="picker_sl" style="background-color: rgb(0, 204, 255); color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 100%; top: 50%;"></div></div><div class="picker_alpha picker_slider" style="background-image: linear-gradient(rgb(0, 204, 255), rgba(0, 204, 255, 0)), url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2'%3E%3Cpath d='M1,0H0V1H2V2H1' fill='lightgrey'/%3E%3C/svg%3E&quot;);"><div class="picker_selector" style="top: 0%;"></div></div><div class="picker_editor"><input aria-label="Type a color name or hex value"></div><div class="picker_sample" style="color: rgb(0, 204, 255);"></div><div class="picker_done"><button>Ok</button></div><div class="picker_cancel"><button>Cancel</button></div></div>
+		  </a>  <p>Button background</p>
+	  </form>
+		 
+	  <form class="f_input_color mt-3">
+		<a href="#" class="buttoncolor" id="basic" style="background-color:#a7b5d6;">
+			<div class="picker_wrapper layout_default no_cancel popup popup_right" tabindex="-1" style="display: none;"><div class="picker_arrow"></div><div class="picker_hue picker_slider" style="color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 53.3333%;"></div></div><div class="picker_sl" style="background-color: rgb(0, 204, 255); color: rgb(0, 204, 255);"><div class="picker_selector" style="left: 100%; top: 50%;"></div></div><div class="picker_alpha picker_slider" style="background-image: linear-gradient(rgb(0, 204, 255), rgba(0, 204, 255, 0)), url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2'%3E%3Cpath d='M1,0H0V1H2V2H1' fill='lightgrey'/%3E%3C/svg%3E&quot;);"><div class="picker_selector" style="top: 0%;"></div></div><div class="picker_editor"><input aria-label="Type a color name or hex value"></div><div class="picker_sample" style="color: rgb(0, 204, 255);"></div><div class="picker_done"><button>Ok</button></div><div class="picker_cancel"><button>Cancel</button></div></div>
+		  </a>  <p>Button Hover background</p>
+	  </form>
+  	  
+	</div>	 
+   </div>
+		 
+	<h2 class="mt-4">Price Options</h2>	
+	<h5>Optional preferences for the product price and total amount.</h5>
+		 
+	 <h4>Show the original product prices and total price</h4>	 
+	 <label class="switch">
+	  <input type="checkbox" checked>
+	  <span class="slider round"></span>
+	  </label>	 
+		 
+	 <h4>Show the 'Compare at price' when available</h4>	 
+	 <label class="switch">
+	  <input type="checkbox" checked>
+	  <span class="slider round"></span>
+	  </label>	
+	 
+     <h4>Show the 'Sale' badge on images(if applicable)</h4>	 
+	 <label class="switch">
+	  <input type="checkbox" checked>
+	  <span class="slider round"></span>
+	  </label>	
+		
+	 </div>	
+	</div>
+  
+	   
+	   
+	   
+	<div class="col-md-6">
+	 <div class="design_preview">
+		
+	  <div class="live_p">
+		 <h2>Frequently Bought Together</h2>
+		  
+		 <div class="item">
+      		<img src="assets/img/shampo.png" alt="cream"><span class="img_plus">+</span>
+	     </div> 
+		 <div class="item">
+			<span class="notify-badge">Sale</span>
+      		<img src="assets/img/cream.png" alt="cream"><span class="img_plus">+</span>
+	     </div>  
+		 <div class="item">
+			<span class="notify-badge">Sale</span>
+      		<img src="assets/img/lotion.png" alt="cream">
+	     </div>  
+ 
+		 <p class="live_total">Total Price: <span class="l_t_s">$55.00</span> <span class="l_t_p">$77.00</span></p> 
+		 <input type="button" class="live_btn" value="Add Selected To Cart"> 
+		 <ul class="live_ul">
+		  <li class="live_total">This item:<span class="p_title">Shampoo</span> <span class="l_t_s">$27.00</span>
+			  <span class="l_t_p">$35.00</span></li>
+		  <li class="live_total"><span class="p_title">Cream</span> <span class="l_t_s">$9.00</span> 
+			  <span class="l_t_p">$17.00</span></li>
+	      <li class="live_total"><span class="p_title">FaceWash</span> <span class="l_t_s">$19.00</span> 
+			  <span class="l_t_p">$25.00</span></li>
+		 </ul> 
+		  
+	  </div> 
+		 
+		 
+		 
+		 
+	 </div>	
+	</div>   
+	   
+	 
+	   
+  
+	   
+   </div>	
+  </div>	 
+ </div>	
+	
+</div>
+
+<!-----------------Tab-2-Close----------------->    
+  
+  </div>
+ </div>
+</div>
+	   
+   </div>	
+  </div>	 
+ </div>
+	
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/script.min.js"></script>
+<script src="https://unpkg.com/vanilla-picker"></script>
+<script>console.clear();
+function $(selector) { return document.querySelector(selector); }
+
+
+        
+/* Basic example */
+
+const parentBasic = $('#basic'),
+      popupBasic = new Picker(parentBasic);
+popupBasic.onChange = function(color) {
+    parentBasic.style.backgroundColor = color.rgbaString;
+};
+//Open the popup manually:
+popupBasic.openHandler();
+
+
+
+/* More options */
+
+const parentCustom = $('#custom'),
+      popupCustom = new Picker({
+          parent: parentCustom,
+          popup: 'top',
+          color: 'violet',
+          //alpha: false,
+          //editor: false,
+          editorFormat: 'rgb',
+          onDone: function(color) {
+              parentCustom.style.backgroundColor = color.rgbaString;
+          },
+      });
+
+
+
+/* Shared picker */
+
+const parentShared = $('#shared'),
+      parentBG = $('#color-bg'),
+      popupShared = new Picker({
+          popup: 'top',
+          onChange: function(color) {
+              this.settings.parent.setAttribute('data-color', color.rgbaString);
+              updateBackground();
+          }
+      });
+
+//Picker switching:
+parentShared.addEventListener('click', function(e) {
+    if(e.target.nodeName !== 'A') { return; }
+    e.preventDefault();
+    const parent = e.target;
+
+    popupShared.movePopup({
+        parent: parent,
+        color: parent.getAttribute('data-color'),
+        //Future feature...
+        //alpha: (parent !== parentBG),
+    }, true);
+});
+
+//Color handling:
+function updateBackground() {
+    function updateElement(elm) {
+        const color = elm.style.color = elm.getAttribute('data-color');
+        return color;
+    }
+
+    const body = document.body,
+          c1 = updateElement($('#color-line1')),
+          c2 = updateElement($('#color-line2')),
+          patternSize = 200,
+          pattern = `repeating-linear-gradient( 0deg, transparent 0, transparent ${patternSize * .6}px, ${c2} 0, ${c2} ${patternSize * .8}px, transparent 0, transparent ${patternSize}px),
+                     repeating-linear-gradient(90deg, transparent 0, transparent ${patternSize * .6}px, ${c2} 0, ${c2} ${patternSize * .8}px, transparent 0, transparent ${patternSize}px),
+                     repeating-linear-gradient( 0deg, ${c1} 0, ${c1} ${patternSize * .4}px, transparent 0, transparent ${patternSize}px),
+                     repeating-linear-gradient(90deg, ${c1} 0, ${c1} ${patternSize * .4}px, transparent 0, transparent ${patternSize}px)`;
+
+    parentShared.style.backgroundColor = updateElement(parentBG);
+    parentShared.style.backgroundImage = pattern;
+}
+updateBackground();
+
+
+
+/* Fixed picker */
+
+const parentFixed = $('#fixed'),
+      pickerFixed = new Picker({
+          parent: parentFixed,
+          popup: false,
+          alpha: false,
+          editor: false,
+          color: 'orangered',
+          onChange: function(color) {
+              parentFixed.style.backgroundColor = color.rgbaString;
+          },
+      });
+//Set the color silently (doesn't trigger .onChange()):
+pickerFixed.setColor('lime', true);
+
+
+
+/* Disable normal link navigation */
+
+[parentBasic, parentCustom].forEach(p => {
+    p.addEventListener('click', function(e) {
+        e.preventDefault();
+    });
+})</script>
+</body>
+</html>
